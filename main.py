@@ -82,7 +82,7 @@ particle2 = ParticleNyan()
 
 # โหลดเสียงพื้นหลัง
 pygame.mixer.init()
-pygame.mixer.music.load('wave/Mid.wav')  # แทนที่ด้วยชื่อไฟล์เสียงของคุณ
+pygame.mixer.music.load('wave/Nyan_Cat1.wav')  # แทนที่ด้วยชื่อไฟล์เสียงของคุณ
 pygame.mixer.music.set_volume(0.5)  # ตั้งระดับเสียง (0.0 ถึง 1.0)
 pygame.mixer.music.play(-1)  # เล่นแบบลูป (-1 คือเล่นซ้ำไม่มีที่สิ้นสุด)
 
